@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Initials Avatar Generator</title>
+</head>
+
+<body>
+  <header>
+    <h1>Initials Avatar generator</h1>
+    <div id="palette"></div>
+  </header>
+  <main>
+    <aside class="config-panel">
+      <label for="initials">Initials</label> 
+      <input id="initials" name="initials" type="text" placeholder="initials">
+      <div id=""></div>
+    </aside>
+    <div class="avatars">
+      <div id="avatarContainerLight" class="avatar-container light-bloc"> Light </div>
+      <div id="avatarContainerDark" class="avatar-container dark-bloc"> Dark </div>
+    </div>
+  </main>
+  <footer>
+    <p>Author: Mahmoud SALMI</p>
+    <p><a href="mailto:mahmoud@salmi.dev">mahmoud@salmi.dev</a></p>
+    <p>© <span id="thisYear"></span> SALMI.DEV</p>
+  </footer>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

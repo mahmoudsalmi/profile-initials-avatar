@@ -35,5 +35,7 @@ function updateAvatars(initials: string) {
   buildAndAddImg(avatarContainerLightEl, avatarUri, '30rem');
   let avatarContainerDarkEl: HTMLDivElement = getById('avatarContainerDark');
   buildAndAddImg(avatarContainerDarkEl, avatarUri, '30rem');
+  let avatarContainerBlueEl: HTMLDivElement = getById('avatarContainerBlue');
+  buildAndAddImg(avatarContainerBlueEl, avatarUri, '30rem');
 }
 
